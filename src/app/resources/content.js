@@ -8,7 +8,7 @@ const person = {
   },
   role: "Desainer grafis",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Masamba", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Makassar", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -86,20 +86,6 @@ const about = {
       </>
     ),
   },
-  studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
-    institutions: [
-      {
-        name: "University of Makassar",
-        description: <>Studied elementary school educator.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied personal branding.</>,
-      },
-    ],
-  },
   work: {
     display: true, // set to false to hide this section
     title: "Work Experience",
@@ -143,6 +129,20 @@ const about = {
           </>,
         ],
         images: [],
+      },
+    ],
+  },
+  studies: {
+    display: true, // set to false to hide this section
+    title: "Studies",
+    institutions: [
+      {
+        name: "University of Makassar",
+        description: <>Studied elementary school educator.</>,
+      },
+      {
+        name: "Build the Future",
+        description: <>Studied personal branding.</>,
       },
     ],
   },
