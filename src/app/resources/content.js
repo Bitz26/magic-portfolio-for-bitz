@@ -52,7 +52,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>student & Desainer grafis</>,
+  headline: <>Student & Desainer grafis</>,
   subline: (
     <>
       I'm Abid, a Student & Desainer grafis at <InlineCode>Freelance</InlineCode>, where I craft intuitive
@@ -86,6 +86,21 @@ const about = {
       </>
     ),
   },
+  studies: {
+    display: true, // set to false to hide this section
+    title: "Studies",
+    institutions: [
+      {
+        name: "University of Makassar",
+        description: <>Studied elementary school educator.</>,
+      },
+      {
+        name: "Build the Future",
+        description: <>Studied personal branding.</>,
+      },
+    ],
+  },
+  
   work: {
     display: true, // set to false to hide this section
     title: "Work Experience",
@@ -132,20 +147,7 @@ const about = {
       },
     ],
   },
-  studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
-    institutions: [
-      {
-        name: "University of Makassar",
-        description: <>Studied elementary school educator.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied personal branding.</>,
-      },
-    ],
-  },
+  
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",
