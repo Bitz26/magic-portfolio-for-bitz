@@ -110,7 +110,7 @@ const about = {
         institutions: [
             {
                 name: 'University of Makassar',
-                description: <>study to become an elementary school teacher .</>,
+                description: <>Gabut.</>,
             },
             {
                 name: 'Build the Future',
