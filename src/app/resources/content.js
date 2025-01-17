@@ -91,8 +91,8 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Freelance",
-        timeframe: "2025 - Present",
+        company: "FLY",
+        timeframe: "2022 - Present",
         role: "Senior Design Engineer",
         achievements: [
           <>
@@ -137,12 +137,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Makassar",
-        description: <>Studied elementary school educator.</>,
+        name: "University of Jakarta",
+        description: <>Studied software engineering.</>,
       },
       {
         name: "Build the Future",
-        description: <>Studied personal branding.</>,
+        description: <>Studied online marketing and personal branding.</>,
       },
     ],
   },
