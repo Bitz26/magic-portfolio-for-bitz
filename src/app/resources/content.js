@@ -77,7 +77,7 @@ const about = {
         experiences: [
             {
                 company: 'FLY',
-                timeframe: '2025 - Present',
+                timeframe: '2022 - Present',
                 role: 'Senior Design Engineer',
                 achievements: [
                     <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
