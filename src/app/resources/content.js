@@ -100,7 +100,6 @@ const about = {
       },
     ],
   },
-  
   work: {
     display: true, // set to false to hide this section
     title: "Work Experience",
@@ -147,7 +146,6 @@ const about = {
       },
     ],
   },
-  
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",
